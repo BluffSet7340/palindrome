@@ -1,1 +1,1 @@
-palindrome
+Using the defer boolean flag allowed me to actually read the input text and log it to the console. Rather than stopping the parsing of HTML the moment it hits the script tag and starts executing it, 

@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 140px 0 0 0;
+    box-sizing: border-box;
+    background-color: #0A0A23;
+    font-family: 'Verdana', 'Tahoma', sans-serif; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.curved-box{
+    text-align: center;
+    width: 450px;
+    height: 140px;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 20px 15px 20px 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 139, 0.75);
+    color: black;
+}
+
+.curved-def-box{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    width: 450px;
+    height: 110px;
+    background-color: #00471B;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.definition{
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    word-spacing: 1px;
+    font-size: 1rem;
+    font-weight: normal;
+    display: block;
+}
+
+input {
+  border: none;              /* Remove all default borders */
+  border-bottom: 2px solid #5A01A7; /* Only bottom border visible */
+  outline: none;             /* Disable default browser outline */
+  margin: 10px;
+  width: 250px;
+  height: 30px;
+  font-size: 1.2rem;
+  transition: red 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 20px;
+}
+
+input:focus {
+  outline: 2px solid #3b82f6; /* Blue outline on focus */
+}
+
+button{
+    width: 90px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: #5A01A7;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+.output{
+    font-size: 1.35rem;
+    margin-top: 15px;
+}
+
+.fa-lightbulb{
+    font-size: 24px;
+}

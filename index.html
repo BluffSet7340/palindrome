@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" 
+    alt="fcc logo" width="300px" height=""/>
+    <h1>Is it a Palindrome?</h1> 
+    <div class="curved-box">
+        <label>Enter in text to check for a palindrome: </label>
+        <input type="text" id="text-input">
+        <button id="check-btn" onclick="checkInput()">Check</button>
+        <p class="output" id="result">This a string is not a palindrome.</p>
+    </div>
+    <div class="curved-def-box">
+        <!-- <icon src="./assets/light-lightbulb-icon.png" class="bulb">bulb</icon> -->
+        <i class="fa-regular fa-lightbulb"></i>
+        <p class="definition">
+            A <em>palindrome</em> is a word or sentence that's spelled the 
+            same way both forward and backward, ignoring punctuation, case, and 
+            spacing.
+        </p>
+    </div>
+</body>
+</html>
