@@ -10,3 +10,7 @@ I used ChatGPT to generate a regular expression that keeps only alphanumeric cha
 
 To make the height of the div box dynamic I used min-height rather than height so that when the output is printed, the height of the div box increases to accomodate it.
 
+
+## Demo
+
+![example case](https://github.com/BluffSet7340/palindrome/blob/main/Screenshot%202025-11-07%20214138.png)
